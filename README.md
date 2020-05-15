@@ -27,6 +27,20 @@ export SMTP_PORT="3000"
 npm run dev
 ```
 
+### Required Node Tweaks
+By default, nNix systems (macOS included) does not allow binding to ports lower than 1024.  You either need to run as `sudo` or allow Node to bind to these lower ports.  Should you want to take the latter approach, first, find the location of your Node binary...
+
+```
+$ which node
+/home/ubuntu/.nvm/versions/node/v12.16.3/bin/node
+``` 
+Once you have this path, you use the `setcap` utility to give Node access...
+
+```
+sudo setcap 'cap_net_bind_service=+ep' /home/ubuntu/.nvm/versions/node/v12.16.3/bin/node
+
+```
+
 ## Contact Info
 Feel free to reach out if you need a hand:
 
