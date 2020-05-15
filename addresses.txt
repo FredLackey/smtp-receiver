@@ -1,0 +1,6 @@
+# Line 1
+
+# Line 3
+*@example.com
+!olduser@example.com
+# Line 6

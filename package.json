@@ -1,0 +1,43 @@
+{
+  "name": "smtp-receiver",
+  "version": "0.0.0",
+  "description": "SMTP Receiver Service",
+  "main": "src/server.js",
+  "scripts": {
+    "lint": "eslint ./src",
+    "lint:fix": "eslint ./src --fix",
+    "ngrok": "ngrok tcp 587"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FredLackey/smtp-receiver.git"
+  },
+  "keywords": [
+    "smtp",
+    "receiver",
+    "proxy"
+  ],
+  "author": {
+    "name": "Fred Lackey",
+    "email": "fred.lackey@gmail.com",
+    "url": "http://fredlackey.com"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/FredLackey/smtp-receiver/issues"
+  },
+  "homepage": "https://github.com/FredLackey/smtp-receiver#readme",
+  "dependencies": {
+    "cleaner-node": "^0.9.1",
+    "smtp-server": "^3.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^4.0.2"
+  }
+}

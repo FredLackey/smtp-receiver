@@ -1,0 +1,94 @@
+{
+  "session": {
+    "id": "y6sftgmu7lcygsk3",
+    "secure": false,
+    "localAddress": "::1",
+    "localPort": 3000,
+    "remoteAddress": "::1",
+    "remotePort": 49158,
+    "clientHostname": "[::1]",
+    "openingCommand": "EHLO",
+    "hostNameAppearsAs": "freds-imac.local",
+    "xClient": {},
+    "xForward": {},
+    "transmissionType": "ESMTP",
+    "tlsOptions": false,
+    "envelope": {
+      "mailFrom": {
+        "address": "from_user@example.com",
+        "args": false
+      },
+      "rcptTo": [
+        {
+          "address": "to_user@example.com",
+          "args": false
+        },
+        {
+          "address": "to_user_02@example.com",
+          "args": false
+        }
+      ]
+    },
+    "transaction": 1
+  },
+  "received": "2020-05-15T01:14:42.223Z",
+  "from": [
+    {
+      "address": "from_user@example.com",
+      "args": false
+    }
+  ],
+  "to": [
+    {
+      "address": "to_user@example.com",
+      "args": false
+    },
+    {
+      "address": "to_user_02@example.com",
+      "args": false
+    }
+  ],
+  "file": "/Users/flackey/Source/GitHub/FredLackey/smtp-receiver/src/._.env.test/1589505282.eml",
+  "stream": {
+    "_writableState": {
+      "objectMode": false,
+      "highWaterMark": 16384,
+      "finalCalled": false,
+      "needDrain": false,
+      "ending": true,
+      "ended": true,
+      "finished": false,
+      "destroyed": false,
+      "decodeStrings": true,
+      "defaultEncoding": "utf8",
+      "length": 305,
+      "writing": true,
+      "corked": 0,
+      "sync": false,
+      "bufferProcessing": false,
+      "writelen": 305,
+      "afterWriteTickInfo": null,
+      "buffered": [],
+      "bufferedIndex": 0,
+      "allBuffers": true,
+      "allNoop": true,
+      "pendingcb": 1,
+      "prefinished": false,
+      "errorEmitted": false,
+      "emitClose": true,
+      "autoDestroy": true,
+      "errored": false,
+      "closed": false
+    },
+    "_events": {},
+    "_eventsCount": 5,
+    "path": "/Users/flackey/Source/GitHub/FredLackey/smtp-receiver/src/._.env.test/1589505282.eml",
+    "fd": null,
+    "flags": "w",
+    "mode": 438,
+    "autoClose": true,
+    "bytesWritten": 0,
+    "closed": false
+  },
+  "ended": true
+}
