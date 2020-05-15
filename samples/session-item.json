@@ -1,54 +1,47 @@
 {
   "session": {
-    "id": "y6sftgmu7lcygsk3",
+    "id": "f5ljrz3qwrlcqlox",
     "secure": false,
     "localAddress": "::1",
     "localPort": 3000,
     "remoteAddress": "::1",
-    "remotePort": 49158,
+    "remotePort": 60946,
     "clientHostname": "[::1]",
-    "openingCommand": "EHLO",
-    "hostNameAppearsAs": "freds-imac.local",
+    "openingCommand": "HELO",
+    "hostNameAppearsAs": "cornholio.com",
     "xClient": {},
     "xForward": {},
-    "transmissionType": "ESMTP",
+    "transmissionType": "SMTP",
     "tlsOptions": false,
     "envelope": {
       "mailFrom": {
-        "address": "from_user@example.com",
+        "address": "from-user@example.com",
         "args": false
       },
       "rcptTo": [
         {
-          "address": "to_user@example.com",
-          "args": false
-        },
-        {
-          "address": "to_user_02@example.com",
+          "address": "newuser@example.com",
           "args": false
         }
       ]
     },
-    "transaction": 1
+    "transaction": 1,
+    "error": "550 Not acceptable."
   },
-  "received": "2020-05-15T01:14:42.223Z",
+  "received": "2020-05-15T13:14:54.826Z",
   "from": [
     {
-      "address": "from_user@example.com",
+      "address": "from-user@example.com",
       "args": false
     }
   ],
   "to": [
     {
-      "address": "to_user@example.com",
-      "args": false
-    },
-    {
-      "address": "to_user_02@example.com",
+      "address": "newuser@example.com",
       "args": false
     }
   ],
-  "file": "/Users/flackey/Source/GitHub/FredLackey/smtp-receiver/src/._.env.test/1589505282.eml",
+  "file": "/Users/flackey/Source/GitHub/FredLackey/smtp-receiver/_test_/2020/05/15/09/15/1589548527.eml",
   "stream": {
     "_writableState": {
       "objectMode": false,
@@ -61,12 +54,12 @@
       "destroyed": false,
       "decodeStrings": true,
       "defaultEncoding": "utf8",
-      "length": 305,
+      "length": 97,
       "writing": true,
       "corked": 0,
       "sync": false,
       "bufferProcessing": false,
-      "writelen": 305,
+      "writelen": 97,
       "afterWriteTickInfo": null,
       "buffered": [],
       "bufferedIndex": 0,
@@ -82,7 +75,7 @@
     },
     "_events": {},
     "_eventsCount": 5,
-    "path": "/Users/flackey/Source/GitHub/FredLackey/smtp-receiver/src/._.env.test/1589505282.eml",
+    "path": "/Users/flackey/Source/GitHub/FredLackey/smtp-receiver/_test_/2020/05/15/09/15/1589548527.eml",
     "fd": null,
     "flags": "w",
     "mode": 438,

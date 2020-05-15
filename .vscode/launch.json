@@ -13,8 +13,9 @@
       ],
       "program": "${workspaceFolder}/src/server.js",
       "env": {
-        "NODE_ENV"  : "development",
-        "SMTP_PORT" : "3000"
+        "DATA_DIR": "/Users/flackey/Source/GitHub/FredLackey/smtp-receiver/_test_",
+        "NODE_ENV": "development",
+        "SMTP_PORT": "3000"
       }
     }
   ]

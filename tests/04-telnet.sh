@@ -14,9 +14,9 @@ main() {
   sleep 5;
   echo "MAIL FROM: <from-user@example.com>";
   sleep 5;
-  echo "RCPT TO: <to-user-a@example.com>";
+  echo "RCPT TO: <newuser@example.com>";
   sleep 5;
-  echo "RCPT TO: <to-user-b@example.com>";
+  echo "RCPT TO: <olduser@example.com>";
   sleep 5;
   echo "DATA";
   sleep 5;
